@@ -35,9 +35,12 @@ try:
     bmi = round(user_weight / (user_height ** 2), 1)
     water_needed = round(user_weight * 0.03, 1)
 
-    print(f"\n{user_name}, ваши показатели:")
+    print("\nВАШИ ДАННЫЕ:")
+    print(f"Имя: {user_name}")
+    print(f"Возраст: {user_age} лет")
+    print(f"Рост: {user_height} м.")
     print(f"Индекс массы тела: {bmi}")
-    print(f"Водный баланс: {water_needed} литра")
+    print(f"Норма воды: {water_needed} л.")
 
     print("\nРасчет окончен. Будьте здоровы!")
 
